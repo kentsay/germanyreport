@@ -11,6 +11,7 @@ class ApplicationController < ActionController::Base
     dir = Rails.root.join('app', 'views', 'reports', 'categories').to_s
     @nav_items = {}
     cats = %W(
+      prayer_burdens
       the_churches
       developing_localities
       cities_we_are_burdened_for
